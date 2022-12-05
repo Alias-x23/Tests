@@ -17,6 +17,7 @@ class Problem1:
 
     @staticmethod
     def find_two(data):
+        data.sort()
         target = 2020
         result_out = {}
 
@@ -35,6 +36,7 @@ class Problem1:
 
     @staticmethod
     def find_three(data):
+        data.sort()
         target = 2020
         result_out = {}
 
